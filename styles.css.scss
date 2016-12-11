@@ -147,7 +147,7 @@ $header-font: #fff;
   }
 }
 
-
+/*Cover and Profile Picture Media Queries*/
 
 @media (max-width: 768px) {
   .navbar-toggle {
@@ -198,7 +198,12 @@ $header-font: #fff;
       display: inline-block;
     }
 }
+}
 
+@media (max-width: 992px) {
+  .profile-nav {
+    margin-left: 30%;
+  }
 }
 
 /*About*/
@@ -206,6 +211,5 @@ $header-font: #fff;
 .inline {
   display: inline-block;
 }
-
 
 

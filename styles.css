@@ -97,6 +97,7 @@
   .profile-nav a:last-of-type li {
     border-right: 1px solid #555; }
 
+/*Cover and Profile Picture Media Queries*/
 @media (max-width: 768px) {
   .navbar-toggle {
     background-color: #3B5999; }
@@ -128,6 +129,9 @@
     line-height: 20px;
     position: relative;
     display: inline-block; } }
+@media (max-width: 992px) {
+  .profile-nav {
+    margin-left: 30%; } }
 /*About*/
 .inline {
   display: inline-block; }
