@@ -1,11 +1,22 @@
 $header-color: #3B5999;
 $header-font: #fff;
 
-.navbar-user {
-  background-color: header-color;
-  color: header-font;
+
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
 }
 
-.cover-pic {
-  background-image: url("cover.jpg") no-repeat center center;
+.navbar-user {
+  background-color: $header-color;
+  padding: 10px 10px 0 0;
+
+  .navbar-text {
+  color: $header-font;
+  }
+}
+
+.page-wrapper {
+  width: 80%;
+  margin: 50px auto 0; 
 }

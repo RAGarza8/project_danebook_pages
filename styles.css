@@ -1,0 +1,15 @@
+.navbar-brand > img {
+  height: 100%;
+  width: auto; }
+
+.navbar-user {
+  background-color: #3B5999;
+  padding: 10px 10px 0 0; }
+  .navbar-user .navbar-text {
+    color: #fff; }
+
+.page-wrapper {
+  width: 80%;
+  margin: 50px auto 0; }
+
+/*# sourceMappingURL=styles.css.map */
