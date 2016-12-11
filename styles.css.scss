@@ -2,9 +2,18 @@ $header-color: #3B5999;
 $header-font: #fff;
 
 
-.navbar-brand>img {
-  height: 100%;
-  width: auto;
+
+.navbar-default {
+  .navbar-brand {
+
+    color: $header-font;
+    text-decoration: none;
+
+    img {  
+    height: 100%;
+    width: auto;
+    }
+  }
 }
 
 .navbar-user {
@@ -13,6 +22,7 @@ $header-font: #fff;
 
   .navbar-text {
   color: $header-font;
+  margin-right: 20px;
   }
 }
 

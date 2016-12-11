@@ -1,12 +1,16 @@
-.navbar-brand > img {
-  height: 100%;
-  width: auto; }
+.navbar-default .navbar-brand {
+  color: #fff;
+  text-decoration: none; }
+  .navbar-default .navbar-brand img {
+    height: 100%;
+    width: auto; }
 
 .navbar-user {
   background-color: #3B5999;
   padding: 10px 10px 0 0; }
   .navbar-user .navbar-text {
-    color: #fff; }
+    color: #fff;
+    margin-right: 20px; }
 
 .page-wrapper {
   width: 80%;
