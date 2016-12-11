@@ -42,9 +42,96 @@
 
 /*Page Wrapper*/
 .page-wrapper {
-  width: 80%;
-  margin: 50px auto 0; }
+  width: 100%;
+  margin-top: 20px; }
 
 /*Cover and Profile Pic*/
+.cover {
+  position: relative; }
+
+.cover-photo {
+  width: 100%;
+  max-height: 400px; }
+
+.personal-pic {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 1; }
+  .personal-pic img {
+    max-height: 200px;
+    max-width: 150px;
+    height: auto;
+    width: auto;
+    display: inline-block; }
+  .personal-pic h2 {
+    margin-left: 20px;
+    display: inline-block;
+    color: #fff; }
+
+/*Profile Navigation Bar*/
+.profile-nav-bar {
+  border: 1px solid #555;
+  position: relative; }
+  .profile-nav-bar .edit-profile {
+    float: right;
+    line-height: 50px;
+    margin: 0 15px 0 0; }
+
+.profile-nav {
+  margin-left: 20%;
+  margin-bottom: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1; }
+  .profile-nav a {
+    display: inline-block;
+    color: #333; }
+  .profile-nav li {
+    display: inline-block;
+    padding: 15px 20px;
+    border-left: 1px solid #555; }
+  .profile-nav span {
+    color: #aaa; }
+  .profile-nav a:last-of-type li {
+    border-right: 1px solid #555; }
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    background-color: #dddddd; }
+    .navbar-toggle .icon-bar {
+      background: #333; }
+
+  .personal-pic {
+    top: 20px;
+    left: 20px; }
+    .personal-pic img {
+      border: 1px solid #fff; }
+    .personal-pic h2 {
+      font-size: 20px; }
+
+  .profile-nav {
+    margin: 0;
+    display: block; }
+    .profile-nav a {
+      display: block; }
+    .profile-nav li {
+      border: 0;
+      display: block;
+      padding: 10px 20px; }
+    .profile-nav a:last-of-type li {
+      border: 0; }
+
+  .profile-nav-bar .edit-profile {
+    float: none;
+    margin: 0;
+    padding: 10px 20px 30px;
+    line-height: 20px;
+    position: relative;
+    z-index: 1000;
+    display: inline-block; } }
+/*About*/
+.inline {
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

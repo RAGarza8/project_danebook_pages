@@ -54,20 +54,47 @@
 
   <!--Cover and Profile Pic-->
 
+<section class="container">    
+ <header class="cover">
+   <img src="cover.jpg" alt="large cover picture" class="cover-photo">
+   <div class="personal-pic">
+     <img src="harry.jpg" alt="profile picture">
+     <h2>Harry Potter</h2>
+   </div>
+   <nav class="profile-nav-bar">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-collapsing-bar" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       </button>
+     </div>
+     <div class="collapse navbar-collapse" id="mobile-collapsing-bar">
+       <ul class="nav navbar-nav profile-nav">
+         <a href="timeline.html"><li>Timeline</li></a>
+         <a href="about.html"><li>About</li></a>
+         <a href="photos.html"><li>Photos <span>(123)</span></li></a>
+         <a href="friends.html" class="active"><li>Friends <span>(542)</span></li></a>
+       </ul>
+       <p class="edit-profile"><a href="about_edit.html">Edit Profile</a></p>
+     </div>
+   </nav>
+ </header>
+</section>
+
+
 
 
 
   <!--About Row-->
-  <div class = "row">
-        <div class = "col-md-4">
-    </div>
-
-    <div class = "col-md-4">
-          <h1>About</h1>
-    </div>
-
-      <div class = "col-md-4">
+  <div class="container">
+    <div class = "row">
+      <div class = "col-md-6 col-md-offset-6">
+            <h1 class="inline">About</h1>
+            <button type="button" class="btn btn-primary inline pull-right">Edit Profile</button>
       </div>
+    </div>
   </div>
 
     <!--Informational Content-->
