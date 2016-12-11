@@ -204,6 +204,12 @@ $header-font: #fff;
   .profile-nav {
     margin-left: 30%;
   }
+
+  .profile-nav-bar {
+    .edit-profile {
+      display: none;
+    }
+  }
 }
 
 /*About*/
