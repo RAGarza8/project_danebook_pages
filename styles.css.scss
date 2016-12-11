@@ -2,31 +2,74 @@ $header-color: #3B5999;
 $header-font: #fff;
 
 
+/*Navbar Styles*/
 
-.navbar-default {
-  .navbar-brand {
+.about-nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  background: $header-color;
+  color: $header-font;
 
-    color: $header-font;
-    text-decoration: none;
+  .logo {
+    display: inline-block;
+  }
 
-    img {  
-    height: 100%;
+
+  img {
+    max-height: 40px;
+    max-width: 40px;
+    height: auto;
     width: auto;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+
+  h2 {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    color: $header-font;
+  }
+
+  form {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+
+    @media (max-width: 768px) {
+      float: left;
+      padding-top: 10px;
     }
   }
-}
 
-.navbar-user {
-  background-color: $header-color;
-  padding: 10px 10px 0 0;
+  input {
+    width: 100%;
+    padding: 3px 5px;
 
-  .navbar-text {
-  color: $header-font;
-  margin-right: 20px;
   }
+
+  p {
+    float: right;
+    margin: 0;
+    line-height: 32px;
+
+    @media (max-width: 768px) {
+      float: left;
+    }
+  }
+
 }
+
+
+/*Page Wrapper*/
 
 .page-wrapper {
   width: 80%;
   margin: 50px auto 0; 
 }
+
+/*Cover and Profile Pic*/
