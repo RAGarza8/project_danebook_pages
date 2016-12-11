@@ -95,6 +95,7 @@ $header-font: #fff;
     height: auto;
     width: auto;
     display: inline-block;
+    border: 3px solid #fff;
   }
 
   h2 { 
@@ -148,22 +149,18 @@ $header-font: #fff;
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-toggle {
-    background-color: rgb(221,221,221);
+    background-color: $header-color;
 
     .icon-bar {
-      background: #333;
+      background-color: $header-font;
     }
   }
 
   .personal-pic {
     top: 20px;
     left: 20px;
-
-    img {
-      border: 1px solid #fff;
-    }
 
     h2 {
       font-size: 20px;
@@ -190,14 +187,14 @@ $header-font: #fff;
     }
 }
 
-  .profile-nav-bar  {
+  .profile-nav-bar  {    
+
     .edit-profile {
       float: none;
       margin: 0;
       padding: 10px 20px 30px;
       line-height: 20px;
       position: relative;
-      z-index: 1000;
       display: inline-block;
     }
 }

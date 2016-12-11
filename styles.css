@@ -63,7 +63,8 @@
     max-width: 150px;
     height: auto;
     width: auto;
-    display: inline-block; }
+    display: inline-block;
+    border: 3px solid #fff; }
   .personal-pic h2 {
     margin-left: 20px;
     display: inline-block;
@@ -96,17 +97,15 @@
   .profile-nav a:last-of-type li {
     border-right: 1px solid #555; }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-toggle {
-    background-color: #dddddd; }
+    background-color: #3B5999; }
     .navbar-toggle .icon-bar {
-      background: #333; }
+      background-color: #fff; }
 
   .personal-pic {
     top: 20px;
     left: 20px; }
-    .personal-pic img {
-      border: 1px solid #fff; }
     .personal-pic h2 {
       font-size: 20px; }
 
@@ -128,7 +127,6 @@
     padding: 10px 20px 30px;
     line-height: 20px;
     position: relative;
-    z-index: 1000;
     display: inline-block; } }
 /*About*/
 .inline {
