@@ -158,6 +158,23 @@
 
 /*Friends Styles*/
 .friends-list {
-  border: 1px solid black; }
+  border: 1px solid black;
+  margin-top: 10px;
+  height: 125px;
+  padding: 0;
+  display: flex;
+  align-items: center; }
+  .friends-list .friend-pic {
+    height: 100px;
+    max-width: 70px;
+    padding: 0; }
+  .friends-list .friend-link {
+    margin-left: 15px; }
+  .friends-list .friend-number {
+    margin-left: 15px; }
+
+.unfriend {
+  background-color: #3B5999;
+  color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
