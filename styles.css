@@ -177,4 +177,19 @@
   background-color: #3B5999;
   color: #fff; }
 
+/*Timeline Styles*/
+.card-timeline {
+  border: 1px solid black;
+  margin-top: 15px; }
+  .card-timeline .timeline-card-text {
+    margin-left: 10px; }
+
+.small-title {
+  text-align: center;
+  border: 1px solid black;
+  background-color: #eee;
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
