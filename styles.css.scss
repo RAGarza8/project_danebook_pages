@@ -221,4 +221,22 @@ $header-font: #fff;
 
 /*About_Edit Styles*/
 
+.edit-title {
+  text-align: center;
+  border: 1px solid black;
+  background-color: #eee;
+  margin-top: 10px;
+}
+
+.save-changes {
+  width: 100%;
+  background-color: $header-color;
+  color: $header-font;
+  margin-bottom: 5px;
+}
+
+.edit_information {
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
 
