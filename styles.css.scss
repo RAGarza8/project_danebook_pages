@@ -221,7 +221,7 @@ $header-font: #fff;
 
 /*About_Edit Styles*/
 
-.edit-title {
+.title-row {
   text-align: center;
   border: 1px solid black;
   background-color: #eee;
@@ -238,5 +238,12 @@ $header-font: #fff;
 .edit_information {
   border: 1px solid black;
   margin-bottom: 20px;
+}
+
+
+/*Friends Styles*/
+
+.friends-list {
+  border: 1px solid black;
 }
 
