@@ -192,13 +192,19 @@
 
 .card-timeline {
   margin-top: 20px;
+  margin-bottom: 10px;
   border: 1px solid black; }
+  .card-timeline .timeline-card-text {
+    margin-left: 10px; }
+  .card-timeline img {
+    height: 75px;
+    width: 100%;
+    max-width: 75px;
+    padding: 5px 0 5px 0; }
 
 .card-post-to-timeline {
   border: 1px solid black;
   margin-top: 20px; }
-  .card-post-to-timeline .timeline-card-text {
-    margin-left: 10px; }
   .card-post-to-timeline .post-button-row {
     background-color: #eee;
     margin-left: auto;

@@ -290,19 +290,26 @@ $header-font: #fff;
   margin-bottom: 10px;
 }
 
-
 .card-timeline {
   margin-top: 20px;
+  margin-bottom: 10px;
   border: 1px solid black;
+
+  .timeline-card-text {
+  margin-left: 10px;
+  }
+
+  img {
+    height: 75px;
+    width: 100%;
+    max-width: 75px;
+    padding: 5px 0 5px 0;
+  }
 }
 
 .card-post-to-timeline {
   border: 1px solid black;
   margin-top: 20px;
-
-  .timeline-card-text {
-    margin-left: 10px;
-  }
 
   .post-button-row {
     background-color: #eee;
