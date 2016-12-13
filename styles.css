@@ -178,9 +178,25 @@
   color: #fff; }
 
 /*Timeline Styles*/
+@media (max-width: 768px) {
+  .disappear {
+    display: none; } }
+
+.small-title {
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: #eee;
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 10px; }
+
+.card-timeline {
+  margin-top: 20px;
+  border: 1px solid black; }
+
 .card-post-to-timeline {
   border: 1px solid black;
-  margin-top: 15px; }
+  margin-top: 20px; }
   .card-post-to-timeline .timeline-card-text {
     margin-left: 10px; }
   .card-post-to-timeline .post-button-row {
@@ -192,21 +208,9 @@
     color: #fff;
     margin: 5px; }
 
-.small-title {
-  text-align: center;
-  border: 1px solid black;
-  background-color: #eee;
-  margin: 0;
-  padding: 5px;
-  margin-bottom: 10px; }
-
-@media (max-width: 768px) {
-  .disappear {
-    display: none; } }
-
 .card-post {
   border: 1px solid black;
-  margin-top: 15px; }
+  margin-top: 20px; }
   .card-post img {
     height: 50px;
     width: 50px; }

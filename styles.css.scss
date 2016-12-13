@@ -274,9 +274,31 @@ $header-font: #fff;
 
 /*Timeline Styles*/
 
+
+.disappear {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.small-title {
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: #eee;
+  margin: 0;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+
+.card-timeline {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
 .card-post-to-timeline {
   border: 1px solid black;
-  margin-top: 15px;
+  margin-top: 20px;
 
   .timeline-card-text {
     margin-left: 10px;
@@ -296,27 +318,10 @@ $header-font: #fff;
 
 }
 
-.small-title {
-  text-align: center;
-  border: 1px solid black;
-  background-color: #eee;
-  margin: 0;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-.disappear {
-  @media (max-width: 768px) {
-    display: none;
-  }
-}
-
-
-
 .card-post {
 
   border: 1px solid black;
-  margin-top: 15px;
+  margin-top: 20px;
 
   img {
     height: 50px;
