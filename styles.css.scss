@@ -274,12 +274,24 @@ $header-font: #fff;
 
 /*Timeline Styles*/
 
-.card-timeline {
+.card-post-to-timeline {
   border: 1px solid black;
   margin-top: 15px;
 
   .timeline-card-text {
     margin-left: 10px;
+  }
+
+  .post-button-row {
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-post {
+    background-color: $header-color;
+    color: $header-font;
+    margin: 5px;
   }
 
 }
@@ -299,6 +311,8 @@ $header-font: #fff;
   }
 }
 
+
+
 .card-post {
 
   border: 1px solid black;
@@ -307,11 +321,9 @@ $header-font: #fff;
   img {
     height: 50px;
     width: 50px;
-    display: inline-block;
   }
 
   .user-name {
-    display: inline-block;
   }
 
   .posted-date {
@@ -328,3 +340,4 @@ $header-font: #fff;
     margin-right: auto;
   }
 }
+

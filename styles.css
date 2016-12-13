@@ -178,11 +178,19 @@
   color: #fff; }
 
 /*Timeline Styles*/
-.card-timeline {
+.card-post-to-timeline {
   border: 1px solid black;
   margin-top: 15px; }
-  .card-timeline .timeline-card-text {
+  .card-post-to-timeline .timeline-card-text {
     margin-left: 10px; }
+  .card-post-to-timeline .post-button-row {
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto; }
+  .card-post-to-timeline .btn-post {
+    background-color: #3B5999;
+    color: #fff;
+    margin: 5px; }
 
 .small-title {
   text-align: center;
@@ -201,10 +209,7 @@
   margin-top: 15px; }
   .card-post img {
     height: 50px;
-    width: 50px;
-    display: inline-block; }
-  .card-post .user-name {
-    display: inline-block; }
+    width: 50px; }
   .card-post .posted-date {
     color: #a9a9a9; }
   .card-post .post-card-row {
