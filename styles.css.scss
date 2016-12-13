@@ -281,6 +281,7 @@ $header-font: #fff;
   .timeline-card-text {
     margin-left: 10px;
   }
+
 }
 
 .small-title {
@@ -290,4 +291,34 @@ $header-font: #fff;
   margin: 0;
   padding: 5px;
   margin-bottom: 10px;
+}
+
+.disappear {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.card-post {
+
+  border: 1px solid black;
+  margin-top: 15px;
+
+  img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+  }
+
+  .user-name {
+    display: inline-block;
+  }
+
+  .posted-date {
+    color: #a9a9a9;
+  }
+
+  .post-card-row {
+    padding: 5px;
+  }
 }
