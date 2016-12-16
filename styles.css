@@ -208,7 +208,8 @@
   .card-post-to-timeline .post-button-row {
     background-color: #eee;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    border-top: 1px solid black; }
   .card-post-to-timeline .btn-post {
     background-color: #3B5999;
     color: #fff;
@@ -227,6 +228,13 @@
   .card-post .post-like-comment-delete {
     background-color: #eee;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding-top: 5px;
+    border-top: 1px solid black; }
+  .card-post .user-likes {
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
