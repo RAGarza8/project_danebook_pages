@@ -237,4 +237,24 @@
     margin-right: auto;
     padding-top: 5px; }
 
+.user-comment {
+  padding: 5px;
+  background-color: #eee;
+  border-top: 1px solid black;
+  margin-left: auto;
+  margin-right: auto; }
+  .user-comment img {
+    height: 50px;
+    width: 50px; }
+  .user-comment .like-text {
+    color: #a9a9a9; }
+
+.comment-box {
+  margin: 35px auto 10px auto; }
+
+.btn-post-comment {
+  background-color: #3B5999;
+  color: #fff;
+  margin: 5px; }
+
 /*# sourceMappingURL=styles.css.map */
