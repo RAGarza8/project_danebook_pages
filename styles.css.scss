@@ -386,8 +386,16 @@ $header-font: #fff;
 }
 
 .btn-post-comment {
-    background-color: $header-color;
-    color: $header-font;
-    margin: 5px;
-  }
+  background-color: $header-color;
+  color: $header-font;
+  margin: 5px;
+}
+
+/*Photos Page Styles*/
+
+.btn-add-photo {
+  background-color: $header-color;
+  color: $header-font;
+}
+
 
