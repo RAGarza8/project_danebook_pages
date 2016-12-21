@@ -258,6 +258,9 @@
   margin: 5px; }
 
 /*Photos Page Styles*/
+.photo-title {
+  display: inline; }
+
 .btn-add-photo {
   background-color: #3B5999;
   color: #fff; }

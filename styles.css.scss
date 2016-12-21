@@ -393,6 +393,11 @@ $header-font: #fff;
 
 /*Photos Page Styles*/
 
+
+.photo-title {
+  display: inline;
+}
+
 .btn-add-photo {
   background-color: $header-color;
   color: $header-font;
